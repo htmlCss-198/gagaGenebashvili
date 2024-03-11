@@ -1,0 +1,248 @@
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* contact.html */
+body {
+    background-image: url(background.jpg);
+    font-family:"Madimi One", sans-serif;
+    font-weight: 400;
+}
+
+
+header {
+    background-color: #191369;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+:hover.headerhover{
+    font-size: 25px;
+    color: red;
+    transition: 1s;
+    transition-delay: 5ms;
+}
+
+
+.main-content {
+    background-color: #158819;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 350px;
+}
+#logo{
+    justify-content: flex-start;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+section{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.salads{
+  
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    display: flex;
+}
+.saladTexts{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    
+}
+:hover.saladTexts{
+    color: #4CAF50;
+    transition-delay: 5ms;
+    transition: 1s;
+    font-size: 45px;
+}
+.footer{
+    display: flex;
+    justify-content:space-evenly;
+}
+footer a{
+    text-decoration: none;
+    color: #2196F3;
+    padding: 10px;
+    
+}
+
+
+
+
+/* About page */
+body.about header {
+    background-color: #4CAF50; /* Green */
+}
+
+body.about .main-content {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Contact page */
+.contaqti{
+    background-color: white;
+    color: rgb(35, 22, 207);
+}
+
+/* Blog page */
+.blog{
+    font-size: 20px;
+    color:beige;
+}
+
+body.blog .main-content {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Services page */
+body.services header {
+    background-color: #9C27B0; /* Purple */
+}
+.orderForm{
+    background-color: #4CAF50;
+    font-size: 18px;
+}
+
+body.services .main-content {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Login page */
+body.login header {
+    background-color: #607D8B; /* Gray */
+}
+
+body.login .main-content {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+body.login form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+body.login form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+body.login form input[type="text"],
+body.login form input[type="password"],
+body.login form input[type="submit"],
+body.login form input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+body.login form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+body.login form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+body.login form input[type="checkbox"] {
+    display: inline;
+    margin-right: 5px;
+}
+/* meta tags */
+
+@media only screen and (max-width: 1080px) {
+    
+    .main-content {
+        padding-left: 100px;
+        padding-right: 100px;
+        
+    }
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1920px) {
+    .main-content {
+        padding-left: 150px;
+        padding-right: 150px;
+        
+    }
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+    .main-content {
+        padding-left: 200px;
+        padding-right: 200px;
+        background-color: #9C27B0;
+        font-size: large;
+    }
+  
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .main-content {
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: small;
+        background-color: #191369;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+    
+}
+body {
+    font-size: 14px;
+}
+header {
+    padding: 5px 0;
+}
+nav ul li {
+    margin-right: 10px;
+}
+.main-content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer {
+    padding: 5px 0;
+}
+
